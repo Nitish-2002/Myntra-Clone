@@ -1,0 +1,30 @@
+.carousel .control-dots {
+    position: absolute;
+    bottom: -35px;
+    margin: 10px 0;
+    padding: 0;
+    text-align: center;
+    width: 100%;
+    z-index: 1;
+}
+.carousel .control-dots .dot {
+    transition: opacity .25s ease-in;
+    opacity: .3;
+    filter: alpha(opacity = 30);
+    box-shadow: 1px 1px 2px rgba(0,0,0,0.9);
+    background: #000;
+    border-radius: 50%;
+    width: 8px;
+    height: 8px;
+    cursor: pointer;
+    display: inline-block;
+    margin: 0 8px;
+}
+.carousel.carousel-slider {
+    position: relative;
+    margin: 0;
+    overflow: visible; 
+}
+.carousel .thumbs-wrapper {
+    display: none;
+}
